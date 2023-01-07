@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:navy;
+    background-color:darkslategray;
 }
 
 .header {
@@ -28,14 +28,16 @@ body {
 }
 
 .header section ul li {
+    display:flex;
+    justify-content:right;
     display: inline-block;
-    margin-left:10px;
+    margin-left:15px;
 }
 
 a {
-    color:white;
+    color:darkslategray;
     text-decoration:none;
-    font-size:20px;
+    font-size:25px;
 }
 
 p {
@@ -47,7 +49,7 @@ p {
     height:500px;
     width:400px;
     margin-top:100px;
-    margin-left:50px;
+    margin-left:40px;
     background-image: url("../images/my-picture.jpg");
     background-position: center;
 }
@@ -75,28 +77,37 @@ p {
 }
 
 .content-about-me h2 {
+    margin-right:200px;
     margin-top:200px;
     padding: 20px;
     font-size:30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align:center;
+    font-weight:bold;
+    text-decoration:underline;
 }
 
-.card {
-    flex: 1 0 200px;
-    padding: 500px;
-    margin-top:20px;
-    border-style: solid;
-    border-width: 1px;
+.main-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    margin:0 auto;
+    border-style:solid;
+    border-width:2px;
     color:white;
+    margin-top:20px;
 }
 
-.card h2 {
+.main-card h2 {
     position:absolute;
     left:1000px;
     top:725px;
     font-size:30px;
+    font-weight:bold;
+    text-decoration:underline;
 }
 
 @media screen and (max-width:768px) {
@@ -110,3 +121,13 @@ p {
         background-color:green;
     }
 }
+
+button:hover {
+    background-color:lightblue;
+}
+
+button:active {
+    font-size:150%;
+    box-shadow: 0 0 10px black inset;
+}
+
