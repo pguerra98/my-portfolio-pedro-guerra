@@ -12,7 +12,7 @@ N/A
 
 This challenged allowed me to improve my coding skills as I had to start this code from scratch and only rely on the class information that I learned. However, the class information was super helpful and although there is much room for me to improve on, I was able to put something together that kind of works haha.
 
-Deployed Website Link: <a href="X">Deployed Website Link</a>
+Deployed Website Link: <a href="https://pguerra98.github.io/my-portfolio-pedro-guerra/">Deployed Website Link</a>
 
 ![alt text](assets/images/deployed-website-screenshot.png)
 
